@@ -23,6 +23,11 @@ def output_array(array)
    end
 end 
 
-def return_string_array 
-  
+def return_string_array(array)
+  index = 0 
+  while index < array.length do 
+     to_s.array[index]
+    index += 1 
+   end
+   return array 
 end 
