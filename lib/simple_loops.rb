@@ -9,14 +9,18 @@ end
 
 def loop_message_n_times(n, message)
   count = 0 
-  while count <= n do 
+  while count < n do 
     puts message 
     count += 1 
   end
 end 
 
-def output_array
-  
+def output_array(array)
+  index = 0 
+  while index < array.length do 
+    puts array[index]
+    index += 1 
+   end
 end 
 
 def return_string_array 
